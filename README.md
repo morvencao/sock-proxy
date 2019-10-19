@@ -1,10 +1,9 @@
-# Slack Desktop app behind a SOCK proxy on macOS
+# Set up SOCK proxy for slack desktop app on macOS
 
-1. Create a SOCK proxy to that server, if you're using ss, there will be a default sock proxy
+1. Create a SOCK proxy to that server, if you're using SS, there will be a default sock proxy:
 ```
 127.0.0.1:1086
 ```
-    
 2. Go to System Preferences
 3. Select your network interface (most probably WIFI or Wired connection)
 4. Click on Advanced..
